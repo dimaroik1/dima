@@ -1,0 +1,90 @@
+.roof{
+	position: relative;
+	border-bottom: 150px solid #097112;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	height: 0;
+	width: 100px;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.window1{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background: #e0d3d3;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+	top: 50px;
+	left: 25px;
+}
+
+.chimney{
+	position: relative;
+	height: 68px;
+	width: 28px;
+	top: -124px;
+	left: 107px;
+	background-color: #524545;
+	z-index: 1;
+}
+
+.wall{
+	position: relative;
+	background-color: #373148;
+	height: 450px;
+	width: 500px;
+	top: -68px;
+	left: 0px;
+}
+
+.door1{
+	position: relative;
+	background-color: #9c833e;
+	height: 80px;
+	width: 69px;
+	top: -75px;
+	left: 302px;
+}
+
+.balcony{
+	position: relative;
+	background-color: #a5b1ff;
+	height: 100px;
+	width: 300px;
+	top: 105px;
+	left: 102px;
+}
+
+.window2{
+	position: relative;
+	background-color: #e0d3d3;
+	height: 80px;
+	width: 69px;
+	top: 92px;
+	left: 69px;
+}
+
+.door2{
+	position: relative;
+	background-color: #9c833e;
+	height: 190px;
+	width: 118px;
+	top: 0px;
+	left: 306px;
+}
+
+.holder{
+	position: relative;
+	width: 10px;
+	height: 10px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+	top: 100px;
+	left: 100px;
+}
