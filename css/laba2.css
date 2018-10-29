@@ -20,17 +20,8 @@ html{
 
 }
 
-.head-text{
-	/*position: relative;*/
-	height: 30%;
-	width: 72%;
-	background: #b4b4b4;
-	float: left;
-	margin-left: 20px;
-}
 
 .body-photo3{
-	/*position: relative;*/
 	height: 250px;
 	width: 26%;
 	float: right;
