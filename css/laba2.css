@@ -1,45 +1,63 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
 html{
-	background: #ada3a3;
+	background: url(../img/baner.jpg) center repeat;
+	background-attachment: fixed;
 }
 
-.head{
-	width: 100%;
-	height: 306px;
+header{
+	min-width: 1334px;
+	width: 1334px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 .head-photo{
-	float: left;
-	height: 159px;
-	width: 26%;
-	margin-right: 20px;
-
+	width: 1334px;
+	height: 306px;
 }
 
-
-.body-photo3{
-	height: 250px;
-	width: 26%;
-	float: right;
+main{
+	width: 1334px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1200px;
+	color: #d0c7c7;
 }
 
 .row1{
-	height: 159px;
+	height: auto;
 	font-size: 1.03em;
+	text-indent: 30px;
+}
+
+.main-photo{
+	float: left;
+	height: 159px;
+	width: 260px;
+	margin-right: 20px;
 }
 
 .row2{
 	margin-top: 50px;
 	font-size: 1.03em;
+	text-indent: 30px;
+}
+
+.body-photo3{
+	float: right;
+	height: 210px;
+	width: 210px;
+	margin-left: 20px;
 }
 
 footer{
+	min-width: 1334px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1334px;
 	margin-top: 50px; 
-	display: inline-block;
+	display: flex;
+	color: #d0c7c7;
 }
 
 footer div{
@@ -47,10 +65,12 @@ footer div{
 	height: 10px;
 	margin-left: 10px;
 	float: left;
+	text-indent: 30px;
 }
 
 .body-photo4{
 	float: left;
 	width: 26%;
-	height: 200px;
+	height: 160px;
+	margin-right: 20px;
 }
