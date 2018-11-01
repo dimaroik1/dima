@@ -1,0 +1,56 @@
+.kvad1{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: red;
+	top: 28px;
+}
+
+.kvad2{
+	top: 10px;
+	left: 79px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: green;
+}
+
+.kvad3{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	left: 166px;
+}
+
+.next{
+	position: absolute;
+	height: 200px;
+	width: 800px;
+	background: blue;
+}
+
+.kva1{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	background: green;
+
+}
+.kva2{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	background: black;
+	left: 100px;
+	bottom: 100px;
+}
+
+.kva3{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	background: yellow;
+	left: 200px;
+	bottom: 200px;
+}
