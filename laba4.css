@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	font-family: "Catamaran";
+	padding: 0 3%;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	display: flex;
+	height: 599px;
+	background-image: linear-gradient(rgba(0, 168, 178, 0.4) 20%, rgba(0, 241, 255, 1)), url(../img/backfon.jpg);
+	background-size: 100% 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.logo{
+	font-weight: 900;
+	flex-direction: column;
+	display: flex;
+	width: 25%;
+	height: auto;
+	font-size: 26px;
+  	color: rgb(51, 51, 51);
+  	text-align: center;
+  	letter-spacing: 2px;
+}
+
+.registerform{
+  flex-direction: column;
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  opacity: 0.902;
+  box-shadow: 0px 6px 5.64px 0.36px rgba(44, 43, 45, 0.7);
+  width: 31%;
+  height: 380px; 
+}
+
+.registerform .buttons{
+	display: flex;
+	margin-bottom: 2%;
+}
+
+#one, #two{
+	font-weight: lighter;
+	font-size: 13px;
+	text-align: center;
+	height: 58px;
+	color: #ffffff;
+	background: #333333;
+	border: none;
+	width: 50%;
+}
+#two{
+	color: #535353;
+	background: #c1c7c7;
+}
+
+.bottomform{
+	display: flex;
+	flex-direction: column;
+}
+
+.bottomform input{
+	padding-left: 2%; 
+	border: 0;
+	width: 95%;
+	height: 33px;
+	margin-top: 3%;
+	align-self: center;
+}
+
+.bottomform div{
+	color: #ffffff;	
+	width: 95%;
+	height: 45px;
+	margin-top: 3%;
+	align-self: center;
+	letter-spacing: 1px;
+}
+
+#three{
+  background-color: #ff6600;
+  font-size: 27px;
+  color: rgb(51, 51, 51);
+}
+
+h1, h2{
+	color: #00a8b2;
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+	font-size: 25px;
+}
+
+main p{
+	font-size: 17px;
+	display: flex;
+	justify-content: center;
+}
+
+.lowercontent{
+	display: flex;
+	justify-content: space-evenly;
+	color: #00a8b2;
+	text-align: center;
+}
+
+.lowercontent img{
+	width: 77px;
+	height: 77px;
+}
+
+.lowercontent p{
+	color: black;
+}
+
+.phototext{
+	margin: 0 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer{
+	margin-top: 50px;
+	height: 100px;
+	padding: 1.5% 3%;
+	background: #333333;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerimg{
+	margin-top: 27px;
+	height: 5px;
+}
+
+footer div{
+	display: flex;
+	text-align: center;
+	color: #ffffff;
+
+}
