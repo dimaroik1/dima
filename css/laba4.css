@@ -1,0 +1,218 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	font-family: "Catamaran";
+	padding: 0 3%;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	display: flex;
+	height: 599px;
+	background-image: linear-gradient(rgba(0, 168, 178, 0.4) 20%, rgba(0, 241, 255, 1)), url(../img/backfon.jpg);
+	background-size: 100% 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.logo{
+	font-weight: 900;
+	flex-direction: column;
+	display: flex;
+	width: 25%;
+	height: auto;
+	font-size: 26px;
+  	color: rgb(51, 51, 51);
+  	text-align: center;
+  	letter-spacing: 2px;
+}
+
+.registerform{
+  flex-direction: column;
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  opacity: 0.902;
+  box-shadow: 0px 6px 5.64px 0.36px rgba(44, 43, 45, 0.7);
+  width: 355px;
+  height: 380px; 
+}
+
+.registerform .buttons{
+	display: flex;
+	margin-bottom: 2%;
+}
+
+#one, #two{
+	font-weight: lighter;
+	font-size: 13px;
+	text-align: center;
+	height: 58px;
+	color: #ffffff;
+	background: #333333;
+	border: none;
+	width: 50%;
+}
+#two{
+	color: #535353;
+	background: #c1c7c7;
+}
+
+.bottomform{
+	display: flex;
+	flex-direction: column;
+}
+
+.bottomform input{
+	padding-left: 2%; 
+	border: 0;
+	width: 95%;
+	height: 33px;
+	margin-top: 3%;
+	align-self: center;
+}
+
+.bottomform div{
+	color: #ffffff;	
+	width: 95%;
+	height: 45px;
+	margin-top: 3%;
+	align-self: center;
+	letter-spacing: 1px;
+}
+
+#three{
+  background-color: #ff6600;
+  font-size: 27px;
+  color: rgb(51, 51, 51);
+}
+
+h1, h2{
+	color: #00a8b2;
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+	font-size: 25px;
+}
+
+main p{
+	font-size: 17px;
+	display: flex;
+	justify-content: center;
+}
+
+.lowercontent{
+	display: flex;
+	justify-content: space-evenly;
+	color: #00a8b2;
+	text-align: center;
+}
+
+.lowercontent img{
+	width: 77px;
+	height: 77px;
+}
+
+.lowercontent p{
+	color: black;
+}
+
+.phototext{
+	width: 222px;  
+	margin: 0 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.phototext h3, .phototext p{
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+footer{
+	margin-top: 50px;
+	height: 100px;
+	padding: 1.5% 3%;
+	background: #333333;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerimg{
+	margin-top: 27px;
+	height: 5px;
+}
+
+footer div{
+	display: flex;
+	text-align: center;
+	color: #ffffff;
+}
+
+@media (max-width: 800px){
+	html{
+		overflow-x: hidden;
+	}
+
+	body{
+		overflow-x: hidden;
+		padding: 0;
+	}
+
+	main p{
+		margin-inline-start: 5%;
+		margin-inline-end: 5%;
+	}
+
+	.lowercontent{
+		flex-wrap: wrap;
+	}
+
+}
+
+@media (max-width: 500px){
+	header{
+		flex-direction: column;
+	}
+
+	.logo{
+		width: 35%;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 450px){
+	footer{
+		height: auto;
+		flex-direction: column;
+	}
+
+	footer img{
+		width: 200px;
+		align-self: center;
+	}
+
+	footer div{
+		width: 251px;
+		align-self: center;
+	}
+
+	.footerimg{
+		margin-top: 0px;
+		margin-bottom: 27px;
+	}
+}
+
+@media (max-width: 375px){
+	.registerform{
+		width: 100%;
+	}
+
+	.logo{
+		width: 70%;
+	}
+}
